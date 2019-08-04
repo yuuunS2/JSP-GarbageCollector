@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="cos">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/cos.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/ojdbc6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/servlet-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
