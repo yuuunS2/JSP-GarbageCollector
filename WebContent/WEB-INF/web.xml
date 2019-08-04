@@ -8,8 +8,12 @@
     	<param-name>controllers</param-name>
         <param-value>
         	map.CtrlList,
-        	map.CtrlAdd2
+        	map.CtrlAdd2,
         	
+        	review.CtrlList,
+        	review.CtrlInsert,
+        	review.CtrlModify,
+        	review.CtrlDel
         </param-value>
 	</init-param>
   </servlet>

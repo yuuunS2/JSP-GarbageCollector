@@ -47,9 +47,9 @@ public class DispatcherServlet extends HttpServlet {
     	//http://localhost:8081/mvc/*.do
     	String ctxPath = request.getContextPath(); //	/mvc
     	String uri = request.getRequestURI(); // /mvc/*.do
-    	
+    	System.out.println("ctxPath:"+ctxPath);
     	uri = uri.substring(ctxPath.length()); // /*.do
-    	System.out.println(uri);
+    	System.out.println("uri:"+uri);
     	
     	Controller ctrl = mapp.get(uri);
     	//uri의 키값으로// 즉 어떤 uri를 받았을때 어떤 controller로 가라 이런뜻.
@@ -71,7 +71,7 @@ public class DispatcherServlet extends HttpServlet {
 			HttpSession session = request.getSession();
 			session.setAttribute("err", e);
 			
-			response.sendRedirect(ctxPath+"/apple_err.jsp");
+			response.sendRedirect(ctxPath+"/error.jsp");
 			e.printStackTrace();                                           
 		}
     }
