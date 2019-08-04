@@ -9,6 +9,7 @@
         <param-value>
         	map.CtrlList,
         	map.CtrlAdd2
+        	
         </param-value>
 	</init-param>
   </servlet>
